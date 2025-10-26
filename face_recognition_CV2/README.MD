@@ -11,9 +11,10 @@ This repository contains a small face recognition toolkit built with OpenCV (LBP
 - Tkinter-based control panel (`main_gui.py`) that keeps the camera preview in OpenCV windows (no embedded video widget)
 - Optional lightweight fallback VideoStream when `imutils` is not installed
 
-<p>
-<img src="gitHubImages/main-window-small.jpg" alt="Main Window" width="400" style="text:center"/>
-Main Window
+<p align="center">
+	<img src="gitHubImages/main-window-small.jpg" alt="Main Window" width="400" />
+	<br />
+	<strong>Main Window</strong>
 </p>
 
 
