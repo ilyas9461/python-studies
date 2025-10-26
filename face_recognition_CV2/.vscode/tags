@@ -1,0 +1,77 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Face_Images	detector.py	/^Face_Images = os.path.join(os.getcwd(), "dataset")$/;"	kind:variable	line:46
+Face_Images	record_face.py	/^Face_Images = os.path.join(os.getcwd(), "dataset")$/;"	kind:variable	line:23
+Image	trainer.py	/^from PIL import Image$/;"	kind:namespace	line:4
+Load	detector.py	/^from pygame import mixer  # Load the popular external library$/;"	kind:namespace	line:9
+an	detector.py	/^an = datetime.datetime.now()$/;"	kind:variable	line:65
+c	create_database.py	/^c = conn.cursor()$/;"	kind:variable	line:5
+cap	detector.py	/^cap = cv2.VideoCapture(0)$/;"	kind:variable	line:62
+cap	record_face.py	/^cap = cv2.VideoCapture(0)$/;"	kind:variable	line:62
+conn	create_database.py	/^conn = sqlite3.connect('database.db')$/;"	kind:variable	line:3
+create_database.py	create_database.py	1;"	kind:file	line:1
+cv2	detector.py	/^import cv2$/;"	kind:namespace	line:1
+cv2	record_face.py	/^import cv2$/;"	kind:namespace	line:1
+cv2	trainer.py	/^import cv2$/;"	kind:namespace	line:2
+datetime	detector.py	/^import datetime$/;"	kind:namespace	line:5
+detector.py	detector.py	1;"	kind:file	line:1
+eslesen_img	detector.py	/^    eslesen_img=img.copy()$/;"	kind:variable	line:70
+external	detector.py	/^from pygame import mixer  # Load the popular external library$/;"	kind:namespace	line:9
+face_cascade	detector.py	/^face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')$/;"	kind:variable	line:61
+face_cascade	record_face.py	/^face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')$/;"	kind:variable	line:14
+faces	detector.py	/^    faces = face_cascade.detectMultiScale($/;"	kind:variable	line:72
+faces	record_face.py	/^        faces = face_cascade.detectMultiScale($/;"	kind:variable	line:72
+flags	detector.py	/^        flags=cv2.CASCADE_SCALE_IMAGE$/;"	kind:variable	line:77
+flags	record_face.py	/^            flags=cv2.CASCADE_SCALE_IMAGE$/;"	kind:variable	line:77
+fname	detector.py	/^fname =yol+ "\/recognizer\/trainingData.yml"$/;"	kind:variable	line:52
+format	detector.py	/^format = "%Y-%m-%d %H:%M:%S"$/;"	kind:variable	line:66
+gTTS	detector.py	/^from gtts import gTTS$/;"	kind:namespace	line:8
+getImagesWithID	trainer.py	/^def getImagesWithID(path):$/;"	kind:function	line:11
+gray	detector.py	/^    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)$/;"	kind:variable	line:71
+gray	record_face.py	/^        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)$/;"	kind:variable	line:71
+img	detector.py	/^                img=eslesen_img$/;"	kind:variable	line:97
+k	detector.py	/^    k = cv2.waitKey(30) & 0xff$/;"	kind:variable	line:108
+k	record_face.py	/^    k = cv2.waitKey(100) & 0xff$/;"	kind:variable	line:101
+kaydet	record_face.py	/^        kaydet=False$/;"	kind:variable	line:95
+kaydet	record_face.py	/^kaydet=True$/;"	kind:variable	line:66
+library	detector.py	/^from pygame import mixer  # Load the popular external library$/;"	kind:namespace	line:9
+locale	detector.py	/^import locale$/;"	kind:namespace	line:6
+minNeighbors	detector.py	/^        minNeighbors=5,$/;"	kind:variable	line:75
+minNeighbors	record_face.py	/^            minNeighbors=5,$/;"	kind:variable	line:75
+minSize	detector.py	/^        minSize=(30, 30),$/;"	kind:variable	line:76
+minSize	record_face.py	/^            minSize=(30, 30),$/;"	kind:variable	line:76
+mixer	detector.py	/^from pygame import mixer  # Load the popular external library$/;"	kind:namespace	line:9
+name	detector.py	/^            name=isimler[ids]$/;"	kind:variable	line:85
+np	detector.py	/^import numpy as np $/;"	kind:namespace	line:2
+np	record_face.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	trainer.py	/^import numpy as np$/;"	kind:namespace	line:3
+os	detector.py	/^import os$/;"	kind:namespace	line:4
+os	record_face.py	/^import os$/;"	kind:namespace	line:4
+os	trainer.py	/^import os$/;"	kind:namespace	line:1
+path	record_face.py	/^path = '.\/dataset\/'$/;"	kind:variable	line:54
+path	trainer.py	/^path = '.\/dataset'$/;"	kind:variable	line:7
+popular	detector.py	/^from pygame import mixer  # Load the popular external library$/;"	kind:namespace	line:9
+recognizer	detector.py	/^recognizer = cv2.face.LBPHFaceRecognizer_create()$/;"	kind:variable	line:63
+recognizer	trainer.py	/^recognizer = cv2.face.LBPHFaceRecognizer_create()$/;"	kind:variable	line:6
+record_face.py	record_face.py	1;"	kind:file	line:1
+sampleNum	record_face.py	/^                sampleNum = sampleNum+1$/;"	kind:variable	line:81
+sampleNum	record_face.py	/^sampleNum = 0$/;"	kind:variable	line:65
+scaleFactor	detector.py	/^        scaleFactor=1.1,$/;"	kind:variable	line:74
+scaleFactor	record_face.py	/^            scaleFactor=1.1,$/;"	kind:variable	line:74
+speak_tts	detector.py	/^def speak_tts(audioString):$/;"	kind:function	line:15
+sqlite3	create_database.py	/^import sqlite3$/;"	kind:namespace	line:1
+sqlite3	record_face.py	/^import sqlite3$/;"	kind:namespace	line:3
+tarih	detector.py	/^                tarih=datetime.datetime.strftime(datetime.datetime.now(),format)$/;"	kind:variable	line:87
+the	detector.py	/^from pygame import mixer  # Load the popular external library$/;"	kind:namespace	line:9
+time	detector.py	/^import time$/;"	kind:namespace	line:7
+time	record_face.py	/^import time$/;"	kind:namespace	line:5
+trainer.py	trainer.py	1;"	kind:file	line:1
+uid	record_face.py	/^uid = Face_ID  # c.lastrowid$/;"	kind:variable	line:51
+uid_isim_getir	detector.py	/^def uid_isim_getir(face_images):$/;"	kind:function	line:27
+uid_isim_getir	record_face.py	/^def uid_isim_getir(face_images):$/;"	kind:function	line:26
+uname	record_face.py	/^uname = input("Enter your name: ")$/;"	kind:variable	line:53
+yol	detector.py	/^yol=os.getcwd()$/;"	kind:variable	line:50

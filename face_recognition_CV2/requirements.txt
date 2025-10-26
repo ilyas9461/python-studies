@@ -1,0 +1,17 @@
+
+# Core dependencies
+numpy>=1.19.0
+# Use the opencv-contrib package (contains cv2.face for LBPH recognizer)
+opencv-contrib-python>=4.5.5
+Pillow>=8.0.0
+
+# Optional / helper libraries used by some helper scripts
+imutils>=0.5.4    # optional - fallback implemented when missing
+gTTS>=2.2.0       # used by scripts/detector.py (text-to-speech)
+pygame>=2.0.0     # used by scripts/detector.py for audio playback
+
+# Notes:
+# - If you require a specific older OpenCV version (e.g. 3.4.x), pin opencv-contrib-python
+#   to that version. The project requires the `cv2.face` module which is provided by
+#   opencv-contrib-python.
+# - To install: `pip install -r requirements.txt`
