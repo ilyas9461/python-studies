@@ -1,0 +1,12 @@
+# Ignore recorded dataset images (do not add face samples to the repo)
+face_recognition_CV2/dataset/
+
+# Common Python ignores
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# OS/editor files
+.DS_Store
+.vscode/
