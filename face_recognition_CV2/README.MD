@@ -55,7 +55,7 @@ Recognized snapshots are saved (one per person) under `recognized/{name}.jpg` wh
 
 Below is an example recognition snapshot produced by the app. Place the image file at `face_recognition_CV2/gitHubImages/face-reg2person.jpg` (or update the path below to match where you store it).
 
-![Recognition example - person](gitHubImages/face-reg2person.jpg)
+<img src="gitHubImages/face-reg2person.jpg" alt="Main Window" width="400" />
 
 ## Files and key modules
 
