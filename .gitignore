@@ -1,5 +1,6 @@
 # Ignore recorded dataset images (do not add face samples to the repo)
 face_recognition_CV2/dataset/
+face_recognition_CV2/recognized/
 
 # Common Python ignores
 __pycache__/

@@ -11,6 +11,8 @@ This repository contains a small face recognition toolkit built with OpenCV (LBP
 - Tkinter-based control panel (`main_gui.py`) that keeps the camera preview in OpenCV windows (no embedded video widget)
 - Optional lightweight fallback VideoStream when `imutils` is not installed
 
+![Main Window](gitHubImages/main-window.jpg)
+
 ## Requirements
 - Python 3.7+ (tested on Windows; should work on Linux/Mac with minor camera backend differences)
 - Recommended packages — install with:
@@ -48,6 +50,12 @@ This creates `recognizer/trainingData.yml`.
 - CLI: Choose the Recognize option in `main_face_rec.py`.
 
 Recognized snapshots are saved (one per person) under `recognized/{name}.jpg` when the recognizer is sufficiently confident.
+
+## Screenshot
+
+Below is an example recognition snapshot produced by the app. Place the image file at `face_recognition_CV2/gitHubImages/face-reg2person.jpg` (or update the path below to match where you store it).
+
+![Recognition example - person](gitHubImages/face-reg2person.jpg)
 
 ## Files and key modules
 
